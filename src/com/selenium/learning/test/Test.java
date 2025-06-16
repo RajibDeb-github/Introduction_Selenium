@@ -1,4 +1,4 @@
-package com.selenium.learning.Test;
+package com.selenium.learning.test;
 
 import java.io.IOException;
 import java.net.SocketException;
