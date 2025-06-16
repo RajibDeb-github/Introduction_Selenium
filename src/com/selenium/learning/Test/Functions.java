@@ -1,4 +1,4 @@
-package com.selenium.learning.beans;
+package com.selenium.learning.Test;
 
 import java.io.File;
 import java.io.FileInputStream;

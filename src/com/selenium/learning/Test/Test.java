@@ -1,4 +1,4 @@
-package com.selenium.learning.main;
+package com.selenium.learning.Test;
 
 import java.io.IOException;
 import java.net.SocketException;
@@ -11,8 +11,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
-
-import com.selenium.learning.beans.Functions;
 
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
