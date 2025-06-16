@@ -12,6 +12,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
+import com.selenium.learning.beans.Functions;
+
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class Test extends Functions {
