@@ -23,7 +23,7 @@ public class Test extends Functions {
 	public static void main(String[] args) throws InterruptedException {
 		Test gk = new Test();
 		SoftAssert asrt = new SoftAssert();
-		gk.launchBrowser("edge", URL);
+		gk.launchBrowser("chrome", URL);
 		int totalSum = 0;
 
 		// System.out.println("Launched");
