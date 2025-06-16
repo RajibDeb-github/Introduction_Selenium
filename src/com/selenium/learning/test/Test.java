@@ -40,7 +40,7 @@ public class Test extends Functions {
 		 */
 		int noOfItemsInitial = Integer.parseInt(gk.dynamicTotalItems());
 		int totalPriceInitial = Integer.parseInt(gk.dynamicTotalPrice());
-		asrt.assertEquals(noOfItemsInitial, 1, "Cart is not emply after login");
+		asrt.assertEquals(noOfItemsInitial, 0, "Cart is not emply after login");
 		asrt.assertEquals(totalPriceInitial, 0, "Cart is not emply after login");
 		// System.out.println(noOfItemsInitial+" , "+totalPriceInitial);
 
@@ -112,18 +112,17 @@ public class Test extends Functions {
 
 			}
 
+			try {
+				gk.closeBrowser();
+				System.out.println("Thanks!:)");
+			} catch (Exception e) {
+				System.out.println("Error!" + e.getMessage());
+			}
+
 			/*
-			 * try { gk.closeBrowser(); System.out.println("Thanks!:)"); }catch(Exception e)
-			 * { System.out.println("Error!"+e.getMessage()); }
-			 */
-			
-			/*
-			 * git init git add .
-			 * git commit -m "first commit" 
-			 * git branch -M main
-			 * git remote add origin
-			 * https://github.com/RajibDeb-github/Introduction_Selenium.git git push -u
-			 * origin main
+			 * git init git add . git commit -m "first commit" git branch -M main git remote
+			 * add origin https://github.com/RajibDeb-github/Introduction_Selenium.git git
+			 * push -u origin main
 			 */
 
 		} catch (IOException e) {
