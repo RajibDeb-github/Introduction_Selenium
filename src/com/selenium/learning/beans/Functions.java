@@ -122,10 +122,11 @@ public class Functions {
 		case "edge":
 			/* open in incognito mode */
 			System.setProperty("webdriver.edge.driver", "D:\\Business\\Selenium\\Driver\\msedgedriver.exe");
-			WebDriverManager.edgedriver().setup();
-			EdgeOptions edgeoption = new EdgeOptions();
-			edgeoption.addArguments("-inprivate");
-			driver = new EdgeDriver(edgeoption);
+			/*
+			 * WebDriverManager.edgedriver().setup(); EdgeOptions edgeoption = new
+			 * EdgeOptions(); edgeoption.addArguments("-inprivate");
+			 */
+			driver = new EdgeDriver();
 			break;
 		case "chrome":
 			/* open in incognito mode */
