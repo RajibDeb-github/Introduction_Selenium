@@ -16,12 +16,12 @@ import com.selenium.learning.beans.Functions;
 
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
-public class Main extends Functions {
+public class Test extends Functions {
 	// public static WebDriver driver;
 	public static final String URL = "https://rahulshettyacademy.com/seleniumPractise/#/";
 
 	public static void main(String[] args) throws InterruptedException {
-		Main gk = new Main();
+		Test gk = new Test();
 		SoftAssert asrt = new SoftAssert();
 		gk.launchBrowser("edge", URL);
 		int totalSum = 0;
@@ -118,7 +118,9 @@ public class Main extends Functions {
 			 */
 			
 			/*
-			 * git init git add README.md git commit -m "first commit" git branch -M main
+			 * git init git add .
+			 * git commit -m "first commit" 
+			 * git branch -M main
 			 * git remote add origin
 			 * https://github.com/RajibDeb-github/Introduction_Selenium.git git push -u
 			 * origin main
