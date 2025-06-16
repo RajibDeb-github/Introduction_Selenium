@@ -121,6 +121,7 @@ public class Functions {
 		switch (browserName) {
 		case "edge":
 			/* open in incognito mode */
+			System.setProperty("webdriver.edge.driver", "D:\\Business\\Selenium\\Driver\\msedgedriver.exe");
 			WebDriverManager.edgedriver().setup();
 			EdgeOptions edgeoption = new EdgeOptions();
 			edgeoption.addArguments("-inprivate");
